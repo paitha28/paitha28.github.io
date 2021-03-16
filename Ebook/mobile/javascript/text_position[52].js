@@ -1,0 +1,1 @@
+﻿positionForPages[52]={page:52,positions:[{word:"48 ",left:0.860803,top:0.044636,width:0.022740,height:0.013113},{word:"ตัวอย่าง",left:0.432829,top:0.401345,width:0.134154,height:0.047035},{word:"หน่วยงานท้องถิ่น",left:0.358182,top:0.489453,width:0.284214,height:0.047035}]};

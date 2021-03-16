@@ -1,0 +1,1 @@
+﻿positionForPages[1]={page:1,positions:[{word:"ก",left:0.873693,top:0.045386,width:0.008855,height:0.019500},{word:"Knowledge Management Tools",left:0.335376,top:0.053824,width:0.639702,height:0.046328},{word:"เครื่องการจัดการความรู้",left:0.528938,top:0.144834,width:0.406475,height:0.040759},{word:"คณะผู้จัดท า",left:0.156118,top:0.799711,width:0.185009,height:0.037196}]};

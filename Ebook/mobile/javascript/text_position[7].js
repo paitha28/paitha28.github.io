@@ -1,0 +1,1 @@
+﻿positionForPages[7]={page:7,positions:[{word:"3 ",left:0.870077,top:0.044636,width:0.013466,height:0.013113},{word:"ตัวอย่าง",left:0.432829,top:0.397639,width:0.134154,height:0.047035},{word:"หน่วยงานราชการ",left:0.352940,top:0.486032,width:0.293710,height:0.047035}]};

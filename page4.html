@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Knowledge Management</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/fontawesome.min.css">
+      <script src="js/jquery-3.3.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+   </head>
+   <body>
+      
+      <div id="header" class="header">
+         <nav class="navbar navbar-expand-lg navbar-light text-capitalize">
+            <div class="container">
+               <a class="navbar-brand" href="#"><img src="imgs/locokm.png" alt="#" /></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="show-menu">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">หน้าแรก</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/page2.html">ยุทธศาสตร์การจัดการความรู้</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/page3.html">เครื่องมือการจัดการความรู้</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="/page4.html">เกี่ยวกับ</a>
+                     </li>
+                     
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+     
+      <div id="about" class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-100">
+                  <h4>Knowledge Management</h4>
+                  <h3 style="text-transform: none !important">คณะผู้จัดทำ</h3>
+                  <p>เว็บไซต์นี้เป็นส่วนหนึ่งของรายวิชาระบบการจัดการความรู้ (344-232) ภาคการศึกษาที่ 2 ปีการศึกษา 2563 มหาวิทยาลัยสงขลานครินทร์ วิทยาเขต หาดใหญ่ 
+                     โดยเป็นการศึกษาและค้นคว้าเกี่ยวกับเครื่องมือการจัดการความรู้ (Knowledge Management Tools) เพื่อนำไปถ่ายทอดและแลกเปลี่ยนความรู้ 
+                     ในการศึกษาของผู้สนใจในเรื่องเครื่องมือการจัดการความรู้ โดยมีผู้ช่วยศาสตราจารย์ ดร.วิภาดา เวทย์ประสิทธิ์ อาจารย์ผู้สอนรายวิชา
+                     ระบบการจัดการความรู้ที่ได้ให้คําแนะนําและสนับสนุน เว็บไซต์รวบรวมตัวอย่างการจัดการความรู้ ของ กพร และเครื่องมือจัดการความรู้ที่ผ่านการใช้งานจริงจากที่ต่างๆ รวมถึงการนํา
+                     ความรู้ไปประยุกต์ใช้ หรือสําหรับผู้สนใจเกี่ยวกับเครื่องมือการจัดการความรู้ </p>
+                  <img class="margin_top_50 img-responsive margin-center" src="imgs/m1.jpg" alt="#" />
+                  <p></p>
+                  <p> .</p>
+               </div>
+               <p> </p>
+               <h2></h2>
+               
+               
+            </div>
+         </div>
+ 
+         <footer>
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-3 col-md-6 col-12">
+                     <div class="footer_blog_section">
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>
+           
+         </footer>
+         <script>
+            $(function () {
+                
+                'use strict';
+                
+                var winH = $(window).height();
+                
+                $('header').height(winH);  
+                
+                $('header .container > div').css('top', (winH / 2) - ( $('header .container > div').height() / 2));
+                
+                $('.navbar ul li a.search').on('click', function (e) {
+                    e.preventDefault();
+                });
+                $('.navbar a.search').on('click', function () {
+                    $('.navbar form').fadeToggle();
+                });
+                
+               
+            })
+         </script>
+      </body>
+   </html>
